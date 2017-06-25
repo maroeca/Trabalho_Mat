@@ -1,15 +1,15 @@
 #pragma once
+
 #include "ofMain.h"
 #include<iostream>
 #include<math.h>
 #include<cmath>
 
-
-
 class Matriz3
 {
 private:
 	float M[3][3];
+
 public:
 
 	/*CONSTRUTORES*/

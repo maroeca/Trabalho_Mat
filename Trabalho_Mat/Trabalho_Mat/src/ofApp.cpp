@@ -44,9 +44,6 @@ void ofApp::draw(){
 	ofMultMatrix(mundo.to4x4());
 	mao.draw(0, 0);
 
-	
-	
-
 	ofPopMatrix();
 }
 

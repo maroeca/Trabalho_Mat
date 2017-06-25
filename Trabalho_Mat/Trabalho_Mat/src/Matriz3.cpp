@@ -2,7 +2,6 @@
 
 #define PI 3.141592653589793846
 
-
 Matriz3::Matriz3()
 {
 	for (int i = 0; i < 3; i++)
@@ -178,9 +177,6 @@ ofVec2f Matriz3::transform(const ofVec2f & vector, float z) const
 
 	return ofVec2f(result.x, result.y);
 }
-
-
-
 
 Matriz3 Matriz3::translate(float x, float y)
 {
